@@ -1,6 +1,6 @@
 # AI Chat App
 
-![App Demo](demo.png)
+![App Demo](https://github.com/dhanwalkarjay/AI_Chat_App/blob/1589f93835e3933e6baac1fd386d257e36cbb8fc/src/assets/Home%20Page.png)
 
 [Description]
 
