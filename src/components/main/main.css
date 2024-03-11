@@ -11,12 +11,30 @@
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color: #585858;
+    color: #ffffff;
+    background-color: grey;
 }
 
 .main .nav img{
-    width: 50px;
-    border-radius: 50%;
+    width: 80px;
+    border-radius: 30%;
+}
+
+.main .nav button{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: grey;
+    cursor: pointer;
+    border: none;
+}
+
+.main .nav button:hover{
+    background-color: #dfe4ea;
 }
 
 .main-container{
@@ -33,6 +51,20 @@
 }
 
 .main .greet span{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideIn 1.5s ease-in-out;
+}
+.main .greet1 {
+    margin: 50px 0px; 
+    font-size: 40px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.main .greet1 span{
     background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

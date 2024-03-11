@@ -1,0 +1,61 @@
+.splash-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.splash-content {
+    animation: fadeAndScale 4s ease forwards;
+    opacity: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.splash-content img {
+    width: 400px;
+    height: 400px;
+}
+
+.splash-content h1 {
+    text-align: center;
+}
+
+@keyframes fadeAndScale {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0; /* Fade out at the end */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .splash-content img {
+      width: 80%; /* Adjust the width to fit smaller screens */
+      max-width: 300px; /* Limit the maximum width for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .splash-content img {
+      width: 70%; /* Further adjust the width for even smaller screens */
+      max-width: 250px; /* Limit the maximum width for even smaller screens */
+    }
+  }
+  
